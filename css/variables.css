@@ -1,0 +1,47 @@
+/* Neobrutalism Design System - CSS Variables */
+
+:root {
+  /* Colors */
+  --bg-dark: #03181a;            /* Deep dark teal */
+  --bg-dark-secondary: #052427;  /* Medium dark teal */
+  --bg-card: #083337;            /* Card teal */
+  --bg-input: #042023;           /* Input background */
+  
+  --accent-teal: #00F0D8;        /* Neon Teal */
+  --accent-teal-hover: #00cbb7;  /* Slightly darker neon teal */
+  --accent-coral: #FF6F61;       /* Neon Coral/Pink-orange */
+  --accent-yellow: #FFE81A;      /* Neon Yellow */
+  
+  --text-light: #F4F9F9;         /* High contrast white-teal */
+  --text-muted: #8FA8AB;         /* Muted teal text */
+  --text-dark: #000000;          /* Pure black for neon background elements */
+
+  /* Borders & Shadows */
+  --border-color: #000000;
+  --border-width: 3px;
+  --border-width-thin: 2px;
+  
+  --shadow-flat: 6px 6px 0px var(--border-color);
+  --shadow-flat-hover: 2px 2px 0px var(--border-color);
+  
+  --shadow-teal: 6px 6px 0px var(--accent-teal);
+  --shadow-coral: 6px 6px 0px var(--accent-coral);
+  --shadow-yellow: 6px 6px 0px var(--accent-yellow);
+
+  /* Border Radii (Brutalist styles use very slight rounded corners or sharp 0px) */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+
+  /* Font Families */
+  --font-heading: 'Archivo Black', system-ui, sans-serif;
+  --font-body: 'Space Grotesk', system-ui, sans-serif;
+
+  /* Transitions */
+  --transition-fast: 0.1s cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-normal: 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-slow: 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+  
+  /* Cursor size */
+  --cursor-size: 20px;
+}
