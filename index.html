@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Cá Nhân | Product Designer</title>
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Personal portfolio of a premium Product Designer specializing in interactive, high-contrast, neobrutalism digital experiences.">
+  <meta name="keywords" content="Product Designer, UI/UX, Neobrutalism, Portfolio, Web Design, Interactive Design">
+  <meta name="author" content="Product Designer">
+  
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/pages.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar container">
+    <div class="navbar-container">
+      <a href="#home" class="navbar-logo cursor-hover-target" data-cursor="teal">
+        <span>PD</span> PORTFOLIO
+      </a>
+      
+      <button class="nav-toggle cursor-hover-target" aria-label="Toggle menu">☰</button>
+      
+      <ul class="navbar-menu">
+        <li><a href="#home" class="nav-link cursor-hover-target" data-cursor="teal">Trang chủ</a></li>
+        <li><a href="#projects" class="nav-link cursor-hover-target" data-cursor="teal">Dự án</a></li>
+        <li><a href="#home#about-sec" class="nav-link cursor-hover-target" data-cursor="teal" onclick="document.getElementById('about-sec')?.scrollIntoView({behavior: 'smooth'}); return false;">Về tôi</a></li>
+        <li><a href="#contact" class="nav-link cursor-hover-target active-coral" data-cursor="coral">Liên hệ</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- MAIN APP CONTAINER (Rendered by router) -->
+  <main id="app-content"></main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-logo">
+        PORTFOLIO <span>✦</span> DESIGN
+      </div>
+      
+      <div class="footer-links">
+        <a href="#home" class="footer-link cursor-hover-target">Trang chủ</a>
+        <a href="#projects" class="footer-link cursor-hover-target">Dự án</a>
+        <a href="#home#about-sec" class="footer-link cursor-hover-target" onclick="document.getElementById('about-sec')?.scrollIntoView({behavior: 'smooth'}); return false;">Giới thiệu</a>
+        <a href="#contact" class="footer-link cursor-hover-target">Liên hệ</a>
+      </div>
+      
+      <div class="footer-copy">
+        &copy; 2026. Thiết kế theo phong cách Neobrutalism. Bảo lưu mọi quyền.
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts (Order is important) -->
+  <script src="js/data.js"></script>
+  <script src="js/router.js"></script>
+  <script src="js/animations.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
