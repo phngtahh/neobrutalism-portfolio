@@ -1,0 +1,14 @@
+{
+  "name": "neobrutalism-portfolio",
+  "version": "1.0.0",
+  "description": "Personal Neobrutalism Portfolio Website for Product Designer",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server -p 3000",
+    "dev": "npx http-server -p 3000"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
